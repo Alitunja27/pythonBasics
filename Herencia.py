@@ -48,23 +48,23 @@ class ElectricVehicles:
         self.charging = True
 
 
-myBike = Bike("Honda", "CBR")
-myBike.caballito()
-myBike.status()
-print("-----------------------------------------")
-myFurgo = Furgo("Chevrolet", "Cualquiera")
-myFurgo.acelerate()
-myFurgo.status()
-print(myFurgo.haul(True))
+# myBike = Bike("Honda", "CBR")
+# myBike.caballito()
+# myBike.status()
+# print("-----------------------------------------")
+# myFurgo = Furgo("Chevrolet", "Cualquiera")
+# myFurgo.acelerate()
+# myFurgo.status()
+# print(myFurgo.haul(True))
 
 
 class ElectricBicycle(ElectricVehicles, Vehicle):
     pass
 
 
-print("------------------------------------")
-myBicycle = ElectricBicycle("Shimano", "TRD")
-myBicycle.status()
-print(isinstance(myBicycle, ElectricBicycle))
+# print("------------------------------------")
+# myBicycle = ElectricBicycle("Shimano", "TRD")
+# myBicycle.status()
+# print(isinstance(myBicycle, ElectricBicycle))
 
 
